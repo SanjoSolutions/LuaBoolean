@@ -1,5 +1,8 @@
-Boolean = {}
+local package = {}
+Boolean = package
+setmetatable(package, { __index = _G })
+setfenv(1, package)
 
-function Boolean.toBoolean(value)
+function toBoolean(value)
   return not not value
 end
