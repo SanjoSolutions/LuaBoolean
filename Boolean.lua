@@ -1,7 +1,4 @@
-local package = {}
-Boolean = package
-setmetatable(package, { __index = _G })
-setfenv(1, package)
+PackageInitialization.initializePackage('Boolean')
 
 function toBoolean(value)
   return not not value
