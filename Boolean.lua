@@ -1,5 +1,5 @@
-PackageInitialization.initializePackage('Boolean')
+Boolean = Boolean or {}
 
-function toBoolean(value)
+function Boolean.toBoolean(value)
   return not not value
 end
