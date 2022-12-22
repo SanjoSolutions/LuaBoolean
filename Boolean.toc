@@ -1,4 +1,6 @@
 ## Title: Boolean
 ## Interface: 100002
+## Version: 1.0.0
 
+Library/Library.lua
 Boolean.lua
