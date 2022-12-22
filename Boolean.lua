@@ -1,7 +1,7 @@
 local addOnName = ...
 local version = '1.0.0'
 
-if not Library.hasRegistered(addOnName, version) then
+if not Library.isRegistered(addOnName, version) then
   --- @class Boolean
   local Boolean = {}
 
