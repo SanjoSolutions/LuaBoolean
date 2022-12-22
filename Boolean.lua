@@ -1,10 +1,13 @@
 local addOnName = ...
+local version = '1.0.0'
 
---- @class Boolean
-local Boolean = {}
+if not Library.hasRegistered(addOnName, version) then
+  --- @class Boolean
+  local Boolean = {}
 
-Library.register(addOnName, '1.0.0', Boolean)
+  Library.register(addOnName, version, Boolean)
 
-function Boolean.toBoolean(value)
-  return not not value
+  function Boolean.toBoolean(value)
+    return not not value
+  end
 end
