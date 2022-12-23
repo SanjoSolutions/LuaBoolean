@@ -2,5 +2,5 @@
 ## Interface: 11403
 ## Version: 1.0.0
 
-Library/Library.lua
+libs/Library/Library.lua
 Boolean.lua
