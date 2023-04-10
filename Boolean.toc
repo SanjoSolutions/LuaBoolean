@@ -2,4 +2,4 @@
 ## Interface: 100007
 ## Version: 1.0.0
 
-Boolean.lua
+Boolean.xml

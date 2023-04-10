@@ -2,4 +2,4 @@
 ## Interface: 30400
 ## Version: 1.0.0
 
-Boolean.lua
+Boolean.xml
