@@ -1,7 +1,8 @@
-local addOnName = ...
+local addOnName = 'Boolean'
 local version = '1.0.0'
 
-if (_G.Library and not Library.retrieve(addOnName, version)) or not _G.Library then
+if (_G.Library and not Library.isRegistered(addOnName, version)) or not _G.Library then
+  --- @class Boolean
   local Boolean = {}
 
   function Boolean.toBoolean(value)
