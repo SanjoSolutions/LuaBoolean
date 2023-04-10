@@ -1,5 +1,6 @@
 ## Title: Boolean
 ## Interface: 11403
 ## Version: 1.0.0
+## OptionalDeps: Library
 
 Boolean.xml

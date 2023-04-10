@@ -1,5 +1,6 @@
 ## Title: Boolean
 ## Interface: 30400
 ## Version: 1.0.0
+## OptionalDeps: Library
 
 Boolean.xml
