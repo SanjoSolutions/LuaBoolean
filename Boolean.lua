@@ -13,5 +13,5 @@ if _G.Library then
     Library.register(addOnName, version, Boolean)
   end
 else
-  error(addOnName + ' requires Library. It seems absent.')
+  error(addOnName .. ' requires Library. It seems absent.')
 end
